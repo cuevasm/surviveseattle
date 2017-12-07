@@ -1,0 +1,16 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page504052.html
+
+RewriteEngine On
+
+RewriteRule ^the-shake$ page504181.html [NC]
+RewriteRule ^the-shake/$ page504181.html [NC]
+
+RewriteRule ^header$ page504208.html [NC]
+RewriteRule ^header/$ page504208.html [NC]
+
+RewriteRule ^footer$ page504216.html [NC]
+RewriteRule ^footer/$ page504216.html [NC]
+
